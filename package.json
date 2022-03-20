@@ -11,6 +11,9 @@
   ],
   "author": "Inwerejosic",
   "license": "MIT",
+  "engines": {
+    "node": "v16.11.0"
+  },
   "dependencies": {
     "body-parser": "^1.19.2",
     "cors": "^2.8.5",
@@ -19,3 +22,4 @@
     "nodemon": "^2.0.15"
   }
 }
+git commit -m 'Adding production environment variables'
