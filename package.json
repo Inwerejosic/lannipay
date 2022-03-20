@@ -22,4 +22,4 @@
     "nodemon": "^2.0.15"
   }
 }
-git commit -m 'Adding production environment variables'
+"start": "node index.js"
