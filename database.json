@@ -1,5 +1,1 @@
-LNPY1221 NGN * *(*) : APPLY PERC 1.4
-LNPY1222 NGN INTL CREDIT-CARD(VISA) : APPLY PERC 5.0
-LNPY1223 NGN LOCL CREDIT-CARD(*) : APPLY FLAT_PERC 50:1.4
-LNPY1224 NGN * BANK-ACCOUNT(*) : APPLY FLAT 100
-LNPY1225 NGN * USSD(MTN) : APPLY PERC 0.55
+[{"feeId":"LNPY1221","feeCurrency":"NGN","feeLocale":"*","feeEntity":"*","entityProperty":"*","feeType":"PERC","feeValue":"1.4"},{"feeId":"LNPY1222","feeCurrency":"NGN","feeLocale":"INTL","feeEntity":"CREDIT-CARD","entityProperty":"VISA","feeType":"PERC","feeValue":"5.0"},{"feeId":"LNPY1223","feeCurrency":"NGN","feeLocale":"LOCL","feeEntity":"CREDIT-CARD","entityProperty":"*","feeType":"FLAT_PERC","feeValue":"50:1.4"},{"feeId":"LNPY1224","feeCurrency":"NGN","feeLocale":"*","feeEntity":"BANK-ACCOUNT","entityProperty":"*","feeType":"FLAT","feeValue":"100"},{"feeId":"LNPY1225","feeCurrency":"NGN","feeLocale":"*","feeEntity":"USSD","entityProperty":"MTN","feeType":"PERC","feeValue":"0.55"}]
