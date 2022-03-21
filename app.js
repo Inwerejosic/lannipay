@@ -125,6 +125,11 @@ app.post('/compute-transaction-fee', (req,res)=>{
     }
 
 })
-app.listen(9000, () =>{
-	console.log('Server running')
+// app.listen(9000, () =>{
+//  console.log('Server running')
+// })
+app.listen((process.env.PORT || 5000), () =>{
+    console.log('I am up and running!')
 })
+
+module.exports = app
